@@ -434,6 +434,9 @@ Blog section
     color: white;
 }
 
+.subcriber input{
+    height: 50px;
+}
 .recent_post{
     
 }
@@ -491,19 +494,52 @@ Blog section
     color: white;
     padding-left: 20px;
 }
+
+
 .post_content{
-    border: 1px solid black;
-   
-        
-}
-.post_content samp, h5, p{
     padding-left: 15px;
     padding-right: 15px;
 }
+.cat_all_post{}
 
+.cat_all_post h2{
+    font-weight: 500;
+    font-size: 24pt;
+    font-family: 'Roboto', sans-serif;
+    border-left: 10px solid yellow;
+    padding-left: 8px;
+    line-height: 20px;
+}
+.cat_all_post samp{
+    color: #8f8f8f;
+    font-size: 16px;
+    border-left: 3px solid yellow;
+    padding-left: 3px;
+}
+.cat_all_post h5{
+    color: black;
+    font-weight: bold;
+}
+.cat_border{
+    border: 1px solid #e1e1e1;
+}
 
+.cat_btm_border{
+    border-bottom: 1px solid #e1e1e1;
 
+}
+.cat_post_wrapper .post_content p{
+    padding: 0;
+}
 
+.cat_social li img{
 
+}
+.cat_add{
+    background: #efefef;
+    padding: 35px;
+}
+.cat_most_read h4{
+    border-left: 3px solid red;
+}
 
-        
