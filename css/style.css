@@ -24,6 +24,26 @@ body{
 .padding_left_50{
     padding-left: 50px;
 }
+.padrt_10{
+    padding-right: 10px;
+    
+}
+
+.padding_rt_20{
+    padding-right: 20px;
+}
+
+.padding_rt_30{
+    padding-right: 30px;
+}
+
+.padding_rt_40{
+    padding-right: 40px;
+}
+
+.padding_rt_50{
+    padding-right: 50px;
+}
 
 .padding_top_10{
     padding-top: 10px;
@@ -543,3 +563,74 @@ Blog section
     border-left: 3px solid red;
 }
 
+.single_page .blog_content{
+    border: none;
+    padding: 0 35px;
+}
+.social_share div:first-child button{
+    background: white;
+}
+.social_share div:nth-child(2) button {
+    background: #516eab;
+    color: white;
+}
+.social_share div:nth-child(3) button{
+    background: #29c5f6;
+    color: white;
+}
+.social_share div:nth-child(4) button{
+    background: #e14e42;
+    color: white;
+}
+.social_share div:nth-child(5) button{
+    background: #cb2026;
+    color: white;
+}
+.social_share div:nth-child(6) button{
+    background: #262626;
+    color: white
+}
+.single_page .blog_content{
+    border: none;
+}
+.user_comment{
+    border:1px solid gray;
+}
+.more_history h3{
+    border-left: 5px solid red;
+    
+}
+.more_history h5{
+    font-weight: bold;
+}
+.more_history samp{
+    border-left: 2px solid red;
+    padding-left: 5px;
+    opacity: .5;
+}
+.forum h5{
+    font-weight: bold;
+    font-size: 12pt;
+}
+.forum h5 span{
+    font-size: 9pt;
+    color: #b7b7b7;
+    
+}
+
+.forum p{
+    font-size: 10pt;
+    color: #2b542c;
+}
+.comment_section h3{
+    border-left: 3px solid red;
+}
+.form_customize input[type=text]{
+    border-radius: 0;
+    width: 240px;
+    height: 50px;
+
+}
+.comment_section button{
+    border-radius: 0;
+}
