@@ -136,22 +136,24 @@ body{
     
     border-left: 2px solid #000;
 }
-.discoverbg{
-    background-image: url(../images/discover.png);
 
-}
-.feature_news img:hover{
-    border: 4px solid red;
- 
-}
-.earth_section img:hover{
-    border: 4px solid red;
+.feture_item img:hover .feture_item {
+    
 }
 .feature_news img{
   background-image: -moz-linear-gradient( 90deg, rgb(0,0,67) 0%, rgba(0,0,0,0) 100%);
   background-image: -webkit-linear-gradient( 90deg, rgb(0,0,67) 0%, rgba(0,0,0,0) 100%);
   background-image: -ms-linear-gradient( 90deg, rgb(0,0,67) 0%, rgba(0,0,0,0) 100%);
 }
+
+.feature_news h5,.earth_section h5{
+    border-left: 3px solid red;
+    padding-left: 5px;
+}
+.feature_news,.earth_section h4{
+    padding-left: 0!important;
+}
+ 
 
 .video_section img{
     position: relative;
@@ -163,24 +165,37 @@ body{
     color: white;
 }
 
-.news_hover div:hover {
-    border: 3px solid red;
+
+
+
+
+.discoverbg{
+    background-image: url(../images/discover.png);
+
 }
-
-
-.asia_news_section .row> div:hover{
-    border: 3px solid red;
+.asis_post_content{
+    padding: 12px 20px;
 }
-
 .discoverbg h4{
     color: #ffffff;
+    font-size: 25px;
+    font-weight:300;
+    letter-spacing: 1px;
+}
+.discoverbg h4 span{
+    padding: 0 20px;
+    font-size: 50px;
+}
+.discoverbg h4 button{
+    border-radius: 0;
+    padding: 0 35px;
 }
 .asianews{
     position: relative;
 }
 .asia_content{
     position: absolute;
-    bottom: 5px;
+    bottom: 35px;
     padding: 0 10px;
     color: white;
 }
@@ -233,8 +248,12 @@ body{
 .footer_section {
     color: gray;
 }
+.footer_section ul li a{
+    cursor: initial
+}
 .social_icon li a{
     color: gray;
+    text-decoration: none;
 
 }
 .footer_section li{
@@ -263,14 +282,10 @@ body{
     opacity: 1.0    ;
 }
 .border_button{
-    border-bottom: 1px solid gray
+    border-bottom: 1px solid #b7b7b7;
 }
-.feature_news h4{
-    padding: 0 10px 0 10px ;
-    
-}
-.news_section,.video_section,.news_section,.more_from_section,.editor_section,.asia_news_section,.sports_section, .row h3,p,h6,h4{
-    padding: 0 10px 0 10px ;
+.border_1px{
+    border:1px solid #b7b7b7; 
 }
 
 
@@ -633,4 +648,16 @@ Blog section
 }
 .comment_section button{
     border-radius: 0;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: red;
+    border-color: #337ab7;
+}
+.pagination ul li{
+    padding: 0 5px;
+    backface-visibility: 
 }
