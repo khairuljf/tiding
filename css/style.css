@@ -4,6 +4,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.pad_btm_1{
+    padding-bottom: 1px;
+}
+
 .padlft_10{
     padding-left: 10px;
     
