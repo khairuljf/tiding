@@ -134,6 +134,44 @@ body{
 
 }
 
+.blog_title h1{
+    border-left: 10px solid;
+    border-color: red;
+    padding-left: 5px;
+    line-height: .6;
+}
+.news_section .news_hover div:first-child{
+    border-right: 0;
+}
+.news_section .news_hover div:last-child{
+    border-left: 0;
+}
+.news_section .news-content{
+    padding: 0 5%;
+}
+.news_section .news-content h4,asia_content h4,.v_title h6{
+    border-left: 4px solid red;
+    padding-left: 5px;
+    line-height: .7;
+}
+.asia_news_section .asia_content h4{
+    border-left: 4px solid blue;
+    padding-left: 5px;
+    line-height: .7;
+}
+.asis_post_content h4{
+    border-left: 4px solid navy;
+    padding-left: 5px;
+}
+.more-content{
+    padding: 0 5%;
+}
+.more-content h5{
+    margin:15px 0;
+    border-left: 4px solid red;
+    padding-left: 5px;
+    line-height: .7;
+}
 
 
 .gallery_wrap h5{
@@ -234,6 +272,7 @@ body{
     padding: 10px;
  
 }
+
 .world_in_picture .world_content{
    position: absolute;
    bottom: 5px;
@@ -280,11 +319,34 @@ body{
         text-align: center;
         padding-top: 20px;
 }
-.footer_image h2{
+.footer_image{
+    position: relative;
+    z-index: 1;
+    
+}
+.footer_image h2,.logopos2{
     text-align: center; 
     color: #ffffff;
-    opacity: 1.0    ;
+    padding: 20px 0;
+
 }
+.footer_image button{
+    border-radius: 0;
+    padding: 0 40px;
+    font-size:20px;
+}
+.footer_image:after{
+    background: url(../images/footer.png);
+    opacity: .22;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
 .border_button{
     border-bottom: 1px solid #b7b7b7;
 }
@@ -292,15 +354,18 @@ body{
     border:1px solid #b7b7b7; 
 }
 
-
+.footer_image{
+   width:  70%;
+   overflow: hidden;
+}
 
 
 .logopos2 {
-    width: 100%;
-    height: 150px;;
+    width: 30%;
     background: #1d1d1d;
     color: white;
     text-align: center;
+    float: left;
 }
 .nav_style ul li a,nav_style ul li{
     color: white!important;
@@ -663,5 +728,42 @@ Blog section
 }
 .pagination ul li{
     padding: 0 5px;
-    backface-visibility: 
+
 }
+.footer_section ul li a{
+    cursor: pointer;
+}
+.footer_section ul li a:hover{
+    color: #cb2026;
+    text-decoration: none;
+}
+.footer_section h5{
+    color: white;
+}
+.feture_item {
+    position:  relative;
+}
+.feture_item:hover::before{
+    width: 100%;
+    height: 100%;
+    border:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+   
+}
+.feture_item:hover::after{
+    width: 100%;
+    height: 100%;
+    border: 3px solid red;
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+   
+}
+.editor_section ul{
+    list-style: none;
+}
+
